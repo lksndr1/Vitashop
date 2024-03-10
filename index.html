@@ -1,0 +1,624 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope&display=swap" rel="stylesheet">
+    <title>Vitashop</title>
+</head>
+
+<body class="body">
+    <div class="main-wrapper">
+        <header class="header scroll">
+            <div class="wrapper">
+                <div class="nav-container">
+                    <a href="" class="logo">
+                        <img class="logo-img" src="./images/logo.jpg" alt="logo">
+                    </a>
+                    <div class="nav-content">
+                        <nav class="navigation">
+                            <ul class="list">
+                                <li class="list-item">
+                                    <a href="#power">В чому користь</a>
+                                </li>
+                                <li class="list-item">
+                                    <a href="#catalog">Каталог</a>
+                                </li>
+                                <li class="list-item">
+                                    <a href="#contact">Контакти</a>
+                                </li>
+
+                                <li>
+                                    <a href="#catalog" class="button-order">
+                                        Оформити замовлення
+                                    </a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <!-- burger-menu -->
+                    <div id="menu-burger">
+                        <button class="c-burger c-burger-line">
+                            <span>Menu-burger</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <main>
+            <section class="section-hero" id="hero">
+                <div class="wrapper">
+                    <div class="content-hero">
+                        <div class="info">
+                            <h1 class="title"><span class="omega-span">ОМЕГА-3</span>
+                                <br>
+                                Риб'ячий жир з Ісландії
+                            </h1>
+                            <h3 class="description">
+                                Преміум якості з океанічних риб з доставкою по Україні
+                            </h3>
+                            <a href="#catalog" class="button-buy">
+                                Придбати
+                            </a>
+                        </div>
+                        <div class="image-hero">
+                            <img src="./images/hero-img.png" alt="hero">
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="section section-omega" id="catalog">
+                <div class="wrapper">
+                    <h2 class="title">Омега-3 необхідна <span class="omega-span">кожному</span></h2>
+                    <h3 class="subtitle">86% населення України мають дефіцит Омега-3</h3>
+                    <div class="line"></div>
+                    <div class="blocks">
+                        <div class="block">
+                            <a href="" class="block-link">
+                                <div class="block-image">
+                                    <img src="./images/image-1-1.jpeg" alt="">
+
+                                </div>
+                                <h3 class="block-title">Риб'ячий жир з печінки тріски</h3>
+                                <h4 class="block-subtitle">Omega-3 Cod Liver</h4>
+                                <h4 class="block-description">Здоровий сон, сяюча шкіра, міцні нерви</h4>
+                                <div class="block-price">825 грн</div>
+                            </a>
+                            <div class="block-buttons">
+                                <a href="./pages/omega-3-cod.html" class="default-button green">
+                                    Детальніше
+                                </a>
+                                <a href="#popup-art1" class="default-button popup-link">
+                                    Замовити
+                                </a>
+                            </div>
+                        </div>
+                        <div class="block">
+                            <a href="" class="block-link">
+                                <div class="block-image">
+                                    <img src="./images/image-2-1.jpeg" alt="">
+
+                                </div>
+                                <h3 class="block-title">Омега-3 Форте</h3>
+                                <h4 class="block-subtitle">Omega-3 Forte</h4>
+                                <h4 class="block-description">Міцне серце, сильний імунітет. Наповнює енергією</h4>
+                                <div class="block-price">1125 грн</div>
+                            </a>
+                            <div class="block-buttons">
+                                <a href="./pages/omega-3-forte.html" class="default-button green">
+                                    Детальніше
+                                </a>
+                                <a href="#popup-art2" class="default-button popup-link">
+                                    Замовити
+                                </a>
+                            </div>
+                        </div>
+                        <div class="block">
+                            <a href="" class="block-link">
+                                <div class="block-image">
+                                    <img src="./images/image-3-1.jpeg" alt="">
+                                </div>
+                                <h3 class="block-title">Риб'ячий жир з печінки акули</h3>
+                                <h4 class="block-subtitle">Shark Liver Oil</h4>
+                                <h4 class="block-description">Природне відновлення, гарна імуностимуляція, міцні судини
+                                </h4>
+                                <div class="block-price">945 грн</div>
+                            </a>
+                            <div class="block-buttons">
+                                <a href="./pages/shark-liver-oil.html" class="default-button green">
+                                    Детальніше
+                                </a>
+                                <a href="#popup-art3" class="default-button popup-link">
+                                    Замовити
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="delivery">
+                        Доставка безкоштовна
+                    </p>
+                </div>
+            </section>
+            <section class="section section-power" id="power">
+                <div class="wrapper">
+                    <h2 class="title">
+                        Кожен вид риби має <span>унікальну силу</span>
+                    </h2>
+                    <h3 class="subtitle">
+                        Продукція LIFID з доставкою по Україні. Доставка на наступний день
+                    </h3>
+                    <div class="content">
+                        <div class="info">
+                            <div class="info-image">
+                                <img src="./images/power-img.png" alt="">
+                            </div>
+                            <h3 class="info-title">
+                                Капсули LIFID OMEGA - 3 - основа та підтримка здоров'я, краси та розумової діяльності.
+                            </h3>
+                        </div>
+                        <div class="blocks">
+
+                            <div class="block">
+                                <div class="block-icon">
+                                    <img src="./images/output-1.svg" alt="">
+                                </div>
+                                <h4 class="block-title">
+                                    Захисти себе від вірусів
+                                </h4>
+                                <ul>
+                                    <li class="block-item">
+                                        для зміцнення імунітету
+                                    </li>
+                                    <li class="block-item">
+                                        для профілактики вірусних<br> та інфекційних захворювань
+                                    </li>
+                                    <li class="block-item">
+                                        для зміцнення ослабленного організму
+                                    </li>
+                                    <li class="block-item">
+                                        для боротьби з запаленням
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <div class="block">
+                                <div class="block-icon">
+                                    <img src="./images/output-2.png" alt="">
+                                </div>
+                                <h4 class="block-title">
+                                    Подбай про головне - про серце
+                                </h4>
+                                <ul>
+                                    <li class="block-item">
+                                        для очищення та розрідження крові
+                                    </li>
+                                    <li class="block-item">
+                                        для зміцнення судин
+                                    </li>
+                                    <li class="block-item">
+                                        для нормалізації артеріального тиску
+                                    </li>
+                                    <li class="block-item">
+                                        для зниження холестерину та цукру в крові
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <div class="block">
+                                <div class="block-icon">
+                                    <img src="./images/output-3.png" alt="">
+                                </div>
+                                <h4 class="block-title">
+                                    Будь красивим
+                                </h4>
+                                <ul>
+                                    <li class="block-item">
+                                        від ламкості та випадання волосся
+                                    </li>
+                                    <li class="block-item">
+                                        від лущення та висипань шкіри
+                                    </li>
+                                    <li class="block-item">
+                                        від ламкості нігтів
+                                    </li>
+                                    <li class="block-item">
+                                        для зміцнення зубної емалі
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <div class="block">
+                                <div class="block-icon">
+                                    <img src="./images/output-4.png" alt="">
+                                </div>
+                                <h4 class="block-title">
+                                    Прокачай мозок
+                                </h4>
+                                <ul>
+                                    <li class="block-item">
+                                        для підвищення швидкості нейронної реакції
+                                    </li>
+                                    <li class="block-item">
+                                        для покращення пам’яті, концентрації
+                                    </li>
+                                    <li class="block-item">
+                                        для підвищення посидючості, уважності
+                                    </li>
+                                    <li class="block-item">
+                                        для стресостійкості
+                                    </li>
+                                </ul>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="section section-best">
+                <div class="wrapper">
+                    <div class="blocks">
+
+                        <div class="block">
+                            <div class="block-content">
+                                <div class="block-info">
+                                    <h4 class="block-title">Екологія та розташування</h4>
+                                    <p class="block-text">
+                                        Визнана однією з найчистіших країн світу біля Полярного кола, омивається
+                                        північними
+                                        морями
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="block">
+                            <div class="block-content">
+                                <div class="block-info">
+                                    <h4 class="block-title">Очищення жиру</h4>
+                                    <p class="block-text">
+                                        Ісландська система молекулярної дистиляції - найновітніша світова технологія
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="block">
+                            <div class="block-content">
+                                <div class="block-info">
+                                    <h4 class="block-title">Риба</h4>
+                                    <p class="block-text">
+                                        Тільки дикого вилову, виловлюється в океані, а не вирощується на фермі
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="block">
+                            <div class="block-content">
+                                <div class="block-info">
+                                    <h4 class="block-title">Нічого зайвого</h4>
+                                    <p class="block-text">
+                                        В риб'ячому жирі немає жодної добавки, 100% чистий продукт
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+
+            <section class="section section-changes">
+                <div class="wrapper">
+                    <h2 class="title">
+                        <span>Результат регулярного прийому</span> Омеги 3
+                    </h2>
+                    <div class="content">
+                        <div class="bloks">
+
+                            <div class="block">
+                                <div class="block-content">
+                                    <div class="block-num">01</div>
+                                    <p class="block-text">
+                                        Покращиться стан шкіри, волосся та нігтів, уповільнюються процеси старіння
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="block">
+                                <div class="block-content">
+                                    <div class="block-num">02</div>
+                                    <p class="block-text">
+                                        Підвищується концентрація уваги, покращиться пам'ять та швидкість мислення,
+                                        знизиться рівень стресу, Омега-3 допоможе запобігти депресії, збільшить
+                                        вироблення серотоніну (гормону щастя)
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="block">
+                                <div class="block-content">
+                                    <div class="block-num">03</div>
+                                    <p class="block-text">
+                                        Зменшиться ризик виникнення інфарктів, інсультів та тромбів, оскільки риб'ячий
+                                        жир розріджує кров. Також він перешкоджає виникненню атеросклерозу та хвороби
+                                        Альцгеймера.Зменшиться ризик виникнення інфарктів, інсультів та тромбів,
+                                        оскільки риб'ячий жир розріджує кров. Також він перешкоджає виникненню
+                                        атеросклерозу та хвороби Альцгеймера.
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="block">
+                                <div class="block-content">
+                                    <div class="block-num">04</div>
+                                    <p class="block-text">
+                                        Нормалізується рівень кров'яного тиску, відновляться пошкоджені тканини,
+                                        зменшиться біль у м'язах після тренувань. Збільшиться загальна кількість сил та
+                                        енергії.
+                                    </p>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="images">
+                            <div class="image active">
+                                <img src="./images/image-6.png" alt="">
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+
+            <section class="section section-quality" id="certificate">
+                <div class="wrapper">
+                    <h2 class="title">
+                        <span>Якість</span> підтверджено
+                    </h2>
+                </div>
+            </section>
+
+            <section class="section section-help" id="contact">
+                <div class="wrapper">
+                    <h2 class="title">
+                        Потрібна допомога із замовленням?
+                    </h2>
+                    <h3 class="subtitle">
+                        Залишай запит - та наш спеціаліст з вами зв'яжеться
+                    </h3>
+                    <div class="form">
+                        <!-- <form action="https://formsubmit.co/21103bc8771c312782004e5406d63bb1" method="POST"> -->
+                        <form action="https://formspree.io/f/xleqbgqz" method="POST">
+                            <h3 class="name">Риб'ячий жир з печінки тріски</h3>
+                            <div class="item">
+                                <input class="default-input" type="hidden" name="_captcha" value="false">
+                            </div>
+                            <div class="item">
+                                <input class="default-input" type="text" name="name" placeholder="Ваше ім'я" required>
+                            </div>
+                            <div class="item">
+                                <input class="default-input" type="number" name="phone" placeholder="Ваш номер телефону"
+                                    required>
+                            </div>
+                            <div class="item">
+                                <input class="default-input" type="email" name="email" placeholder="Ваш email" required>
+                            </div>
+                            <div class="item">
+                                <!-- <input class="default-input" type="text" name="question" placeholder="Ваше запитання"
+                                    required> -->
+                                <textarea cols="40" rows="10"
+                                    class="wpcf7-form-control wpcf7-textarea wpcf7-validates-as-required default-input"
+                                    aria-required="true" aria-invalid="false" placeholder="Ваше запитання"
+                                    name="textarea-160" data-gtm-form-interact-field-id="1" required>
+                            </textarea>
+                            </div>
+
+                            <button class="default-button" type="submit">
+                                Запитати
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer class="footer">
+            <div class="wrapper">
+                <div class="top">
+                    <div class="container">
+                        <div class="block-soc">
+                            <a href="" class="logo">
+                                <img class="logo-img" src="./images/logo.jpg" alt="logo">
+                            </a>
+                            <div class="social">
+                                <a id="fb" href="https://www.facebook.com/" class="fa-brands fa-facebook"></a>
+                                <a id="yt" href="https://www.youtube.com/" class="fa-brands fa-youtube"></a>
+                            </div>
+                        </div>
+
+                        <div class="block phone">
+                            <i class="fa-solid fa-phone"></i>+38 093 800 88 77
+                        </div>
+
+                        <div class="block phone">
+                            <i class="fa-regular fa-envelope"></i>omegalifid@mail.com
+                        </div>
+
+                    </div>
+                    <div class="bottom">
+
+                    </div>
+                </div>
+        </footer>
+    </div>
+
+    <div id="popup-art1" class="popup">
+        <a href="#header" class="popup__area"></a>
+        <div class="popup__body">
+            <div class="popup__content">
+                <a href="#header" class="popup__close close-popup">X</a>
+                <div class="popup__title">
+                    <h3>Ваше замовлення:</h3>
+                </div>
+                <div class="popup__text">
+                    <div class="product__container">
+                        <div class="order-img">
+                            <img src="./images/image-1-1.jpeg" alt="">
+                        </div>
+                        <h4 class="name">Риб'ячий жир з печінки тріски</h4>
+                    </div>
+                    <div class="form-order">
+                        <h3 class="subtitle">Контактна інформація:</h3>
+                        <form action="https://formspree.io/f/xyyrwkrv" method="POST">
+                            <div class="item">
+                                <input class="default-input" type="hidden" name="_captcha" value="false">
+                            </div>
+                            <div class="item">
+                                <input class="default-input" type="text" name="name" placeholder="Ім'я" required>
+                            </div>
+                            <div class="item">
+                                <input class="default-input" type="text" name="s-name" placeholder="Прізвище" required>
+                            </div>
+                            <div class="item">
+                                <input class="default-input" type="number" name="phone" placeholder="Ваш номер телефону"
+                                    required>
+                            </div>
+                            <h4 class="subtitle">Адреса доставки:</h4>
+                            <div class="item">
+                                <!-- <input class="default-input" type="text" name="question" placeholder="Ваше запитання"
+                                    required> -->
+                                <textarea cols="40" rows="10"
+                                    class="wpcf7-form-control wpcf7-textarea wpcf7-validates-as-required default-input"
+                                    aria-required="true" aria-invalid="false" placeholder="Адреса доставки"
+                                    name="textarea-160" data-gtm-form-interact-field-id="1" required>
+                                </textarea>
+                            </div>
+
+                            <button class="default-button" type="submit">
+                                Придбати
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="popup-art2" class="popup">
+        <a href="#header" class="popup__area"></a>
+        <div class="popup__body">
+            <div class="popup__content">
+                <a href="#header" class="popup__close close-popup">X</a>
+                <div class="popup__title">
+                    <h3>Ваше замовлення:</h3>
+                </div>
+                <div class="popup__text">
+                    <div class="product__container">
+                        <div class="order-img">
+                            <img src="./images/image-2-1.jpeg" alt="">
+                        </div>
+                        <h4 class="name">Омега-3 Форте</h4>
+                    </div>
+                    <div class="form-order">
+                        <h3 class="subtitle">Контактна інформація:</h3>
+                        <form action="https://formspree.io/f/xzbnrdnq" method="POST">
+                            <div class="item">
+                                <input class="default-input" type="hidden" name="_captcha" value="false">
+                            </div>
+                            <div class="item">
+                                <input class="default-input" type="text" name="name" placeholder="Ім'я" required>
+                            </div>
+                            <div class="item">
+                                <input class="default-input" type="text" name="s-name" placeholder="Прізвище" required>
+                            </div>
+                            <div class="item">
+                                <input class="default-input" type="number" name="phone" placeholder="Ваш номер телефону"
+                                    required>
+                            </div>
+                            <h4 class="subtitle">Адреса доставки:</h4>
+                            <div class="item">
+                                <!-- <input class="default-input" type="text" name="question" placeholder="Ваше запитання"
+                                    required> -->
+                                <textarea cols="40" rows="10"
+                                    class="wpcf7-form-control wpcf7-textarea wpcf7-validates-as-required default-input"
+                                    aria-required="true" aria-invalid="false" placeholder="Адреса доставки"
+                                    name="textarea-160" data-gtm-form-interact-field-id="1" required>
+                                </textarea>
+                            </div>
+
+                            <button class="default-button" type="submit">
+                                Придбати
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div id="popup-art3" class="popup">
+        <a href="#header" class="popup__area"></a>
+        <div class="popup__body">
+            <div class="popup__content">
+                <a href="#header" class="popup__close close-popup">X</a>
+                <div class="popup__title">
+                    <h3>Ваше замовлення:</h3>
+                </div>
+                <div class="popup__text">
+                    <div class="product__container">
+                        <div class="order-img">
+                            <img src="/images/image-3-1.jpeg" alt="">
+                        </div>
+                        <h4 class="name">Риб'ячий жир з печінки акули</h4>
+                    </div>
+                    <div class="form-order">
+                        <h3 class="subtitle">Контактна інформація:</h3>
+                        <form action="https://formspree.io/f/xeqygeyb" method="POST">
+                            <div class="item">
+                                <input class="default-input" type="hidden" name="_captcha" value="false">
+                            </div>
+                            <div class="item">
+                                <input class="default-input" type="text" name="name" placeholder="Ім'я" required>
+                            </div>
+                            <div class="item">
+                                <input class="default-input" type="text" name="s-name" placeholder="Прізвище" required>
+                            </div>
+                            <div class="item">
+                                <input class="default-input" type="number" name="phone" placeholder="Ваш номер телефону"
+                                    required>
+                            </div>
+                            <h4 class="subtitle">Адреса доставки:</h4>
+                            <div class="item">
+                                <!-- <input class="default-input" type="text" name="question" placeholder="Ваше запитання"
+                                    required> -->
+                                <textarea cols="40" rows="10"
+                                    class="wpcf7-form-control wpcf7-textarea wpcf7-validates-as-required default-input"
+                                    aria-required="true" aria-invalid="false" placeholder="Адреса доставки"
+                                    name="textarea-160" data-gtm-form-interact-field-id="1" required>
+                                </textarea>
+                            </div>
+
+                            <button class="default-button" type="submit">
+                                Придбати
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="./scripts/script.js"></script>
+</body>
+<script src="https://kit.fontawesome.com/320ef65911.js" crossorigin="anonymous"></script>
+
+
+</html>
